@@ -62,7 +62,7 @@ ScrollReveal().reveal(".home-content p, .about-content", { origin: "right" });
 // multiple typed js
 
 const typed = new Typed(".multiple-text", {
-  strings: ["Backend Developer", "Quality Assurance", "Database Enginner"],
+  strings: ["Software Engineer", ".NET Backend Developer", "QA Automation Engineer", "Database Enginner", "Clean Architecture & System Optimization", "Creatio Developer"],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 1000,
