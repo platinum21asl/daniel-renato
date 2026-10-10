@@ -224,22 +224,22 @@ span{
       margin: 1rem 0 3rem;
 }
 
-.portfolio{
+.portofolio{
       background: var(--second-bg-color);
 }
 
-.portfolio h2{
+.portofolio h2{
       margin-bottom: 4rem;
 }
 
-.portfolio-container{
+.portofolio-container{
       display: grid;
       grid-template-columns: repeat(3,1fr);
       align-items: center;
       gap: 2.5rem;
 }
 
-.portfolio-container .portfolio-box {
+.portofolio-container .portofolio-box {
       position: relative;
       border-radius: 2rem;
       box-shadow: 0 0 1rem var(--bg-color);
@@ -247,15 +247,15 @@ span{
       display: flex;
 }
 
-.portfolio-box img{
+.portofolio-box img{
       width: 100%;
       transition: .5s ease;
 }
-.portfolio-box img:hover{
+.portofolio-box img:hover{
       transform: scale(1.1);
 }
 
-.portfolio-box .portfolio-layer{
+.portofolio-box .portofolio-layer{
 
       position: absolute;
       bottom: 0;
@@ -271,20 +271,20 @@ span{
       transform: translate(100%);
       transition: .5s ease;
 }
-.portfolio-box:hover .portfolio-layer{
+.portofolio-box:hover .portofolio-layer{
       transform: translate(0);
 }
 
-.portfolio-layer h4{
+.portofolio-layer h4{
       font-size: 3rem;
 }
 
-.portfolio-layer p{
+.portofolio-layer p{
       /* font-size: 1.6rem; */
       margin: .3rem 0 1rem;
 }
 
-.portfolio-layer a{
+.portofolio-layer a{
       display: inline-flex;
       justify-content: center;
       align-items: center;
@@ -293,7 +293,7 @@ span{
       background: var(--text-color);
       border-radius: 50%;
 }
-.portfolio-layer a i{
+.portofolio-layer a i{
       color: var(--second-bg-color);
 }
 
@@ -386,7 +386,7 @@ span{
       .services {
             padding-bottom: 7rem;
       }
-      .portfolio{
+      .portofolio{
             padding-bottom: 7rem;
       }
       .contact {
@@ -452,17 +452,17 @@ span{
             margin-bottom: 3rem;
       }
 
-      .portfolio h2{
+      .portofolio h2{
             margin-bottom: 3rem;
       }
 
-      .portfolio-container{
+      .portofolio-container{
             grid-template-columns: repeat(2, 1fr);
       }
 }
 
 @media (max-width: 617px) {
-      .portfolio-container{
+      .portofolio-container{
             grid-template-columns: 1fr;
       }
 }

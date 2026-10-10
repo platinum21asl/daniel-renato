@@ -53,7 +53,7 @@ ScrollReveal({
 
 ScrollReveal().reveal(".home-content, .heading", { origin: "top" });
 ScrollReveal().reveal(
-  ".home-img, .services-container, .portfolio-box, contact form",
+  ".home-img, .services-container, .portofolio-box, contact form",
   { origin: "bottom" }
 );
 ScrollReveal().reveal(".home-content h1, .about-img", { origin: "left" });
@@ -61,10 +61,18 @@ ScrollReveal().reveal(".home-content p, .about-content", { origin: "right" });
 
 // multiple typed js
 
+// Initialize Typed.js for dynamic typing effect in the Hero section
 const typed = new Typed(".multiple-text", {
-  strings: ["Software Engineer", ".NET Backend Developer", "QA Automation Engineer", "Database Enginner", "Clean Architecture & System Optimization", "Creatio Developer"],
-  typeSpeed: 100,
-  backSpeed: 100,
-  backDelay: 1000,
-  loop: true,
+    strings: [
+        "Software Engineer",
+        ".NET Developer",
+        "Application Support Developer",
+        "Technical Consultant",
+        "QA Automation Engineer",
+        "Database Engineer"
+    ],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 1000,
+    loop: true,
 });
